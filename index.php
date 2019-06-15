@@ -6,7 +6,7 @@ $text4=$_POST['text4'];
 $radio1=$_POST['radio'];
 $radio2=$_POST['radio'];
 $radio3=$_POST['radio'];
-$select2=$_POST['mp'];
+$sellect3=$_POST['mp'];
 $text5=$_POST['text5'];
 $textarea=$_POST['textarea'];
 
@@ -21,11 +21,11 @@ echo $radio2;
 else if ($radio3=="allantikon")
 echo $radio3;
  
-if ($select2=="1")
+if ($sellect3=="1")
   echo "  8", "<br>";
-else if ($select2=="2")
+else if ($sellect3=="2")
   echo " 12", "<br>";
-else if ($select2=="3")
+else if ($sellect3=="3")
   echo " 16", "<br>";
 
 echo "Ποσότητα: ", $text5, "<br>";
